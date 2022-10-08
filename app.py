@@ -111,5 +111,5 @@ def my_page():
 
 
 if __name__ == '__main__':
-    from werkzeug.serving import run_simple
-    run_simple('0.0.0.0', 9000, app)
+    
+    app.run(debug=True)
